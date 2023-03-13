@@ -6,7 +6,7 @@ imageTags:
   wsManager: ""
   keycloak: ""
 ingress:
-  hostname: "localhost"
+  hostname: "blueprint-dev.oce.nl"
 ingress-nginx:
   enabled: true
 keycloak:

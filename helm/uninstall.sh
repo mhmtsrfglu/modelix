@@ -1,3 +1,3 @@
 #!/bin/sh
 
-helm uninstall dev
+helm uninstall dev -n modelix
