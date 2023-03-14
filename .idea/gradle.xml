@@ -25,7 +25,6 @@
             <option value="$PROJECT_DIR$/workspace-client" />
             <option value="$PROJECT_DIR$/workspace-manager" />
             <option value="$PROJECT_DIR$/workspaces" />
-            <option value="$PROJECT_DIR$/ws-manager-rest" />
           </set>
         </option>
       </GradleProjectSettings>
