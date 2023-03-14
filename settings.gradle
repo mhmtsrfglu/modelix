@@ -13,4 +13,5 @@ include 'workspace-manager'
 include 'workspace-client'
 include 'headless-mps'
 include 'gitui'
+include 'ws-manager-rest'
 
