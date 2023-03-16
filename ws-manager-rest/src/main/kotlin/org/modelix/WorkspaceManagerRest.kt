@@ -14,10 +14,14 @@
  * limitations under the License.
  */
 
-package org.modelix;
+package org.modelix
 
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
-    }
+import org.springframework.boot.autoconfigure.SpringBootApplication
+import org.springframework.boot.runApplication
+
+@SpringBootApplication
+class WorkspaceManagerRest
+
+fun main(args: Array<String>){
+    runApplication<WorkspaceManagerRest>(*args)
 }

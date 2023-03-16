@@ -4,9 +4,10 @@ imageTags:
   proxy: ""
   wsClient: ""
   wsManager: ""
+  wsManagerRest: "2021.1.4-202303151526-SNAPSHOT"
   keycloak: ""
 ingress:
-  hostname: "ops-k13-n01.ops.oce.net"
+  hostname: ""
 ingress-nginx:
   enabled: true
 keycloak:
