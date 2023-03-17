@@ -19,4 +19,6 @@ package org.modelix.response
 import com.fasterxml.jackson.annotation.JsonInclude
 import org.springframework.http.HttpStatus
 
-data class Response(val code:HttpStatus, val message:String, @JsonInclude(JsonInclude.Include.NON_EMPTY) val body:Any)
+data class Response(val message:String, @JsonInclude(JsonInclude.Include.NON_EMPTY) val body:Any){
+    constructor(message:String) : this(message,"")
+}

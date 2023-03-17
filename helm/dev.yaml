@@ -4,7 +4,7 @@ imageTags:
   proxy: ""
   wsClient: ""
   wsManager: ""
-  wsManagerRest: "2021.1.4-202303151526-SNAPSHOT"
+  wsManagerRest: ""
   keycloak: ""
 ingress:
   hostname: ""
