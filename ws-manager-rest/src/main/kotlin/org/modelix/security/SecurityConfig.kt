@@ -33,7 +33,8 @@ class SecurityConfig {
         jwtAuthenticationConverter.setJwtGrantedAuthoritiesConverter(KeycloakRoleConverter())
 
         http.csrf { obj: CsrfConfigurer<HttpSecurity> -> obj.disable() }
-            .authorizeHttpRequests()
+            .authorizeRequests()
+            .antMatchers("/workspace/api/test").permitAll()
             .anyRequest().authenticated()
             .and()
             .oauth2ResourceServer()

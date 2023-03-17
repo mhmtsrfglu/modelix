@@ -26,6 +26,7 @@ import org.modelix.workspaces.Workspace
 import org.modelix.workspaces.WorkspaceHash
 import org.springframework.stereotype.Component
 
+@Component
 class WorkspaceManager {
     companion object {
         val org_modelix_model_mpsplugin = ModuleId("c5e5433e-201f-43e2-ad14-a6cba8c80cd6")

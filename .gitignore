@@ -30,3 +30,4 @@ source_gen.caches
 **/src/*/kotlin_gen
 
 gradle.properties
+ws-manager-rest/src/main/resources/application.properties
